@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+.env
+.DS_Store
+
+# Prisma
+prisma/dev.db
+
+# Editor
+.vscode/
+.idea/
+EOF
+.env

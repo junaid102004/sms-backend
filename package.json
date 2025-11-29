@@ -1,0 +1,28 @@
+{
+  "name": "sms-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --exec node src/index.js",
+    "start": "node src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev --name init",
+    "prisma:studio": "prisma studio"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@prisma/client": "latest",
+    "apollo-server-express": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "graphql": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "prisma": "latest"
+  }
+}
