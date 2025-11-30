@@ -14,7 +14,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "@prisma/client": "latest",
+    "@prisma/client": "6.19.0",
     "apollo-server-express": "latest",
     "cors": "latest",
     "dotenv": "latest",
@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "nodemon": "latest",
-    "prisma": "latest"
+    "prisma": "6.19.0"
   }
 }
